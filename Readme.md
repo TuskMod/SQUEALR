@@ -1,4 +1,4 @@
-# Spatial meta-population model   
+# Spatial QUantitative Evaluation for ASFv eLimination (SQUEAL) model   
 
 Based on ASF simulation model from Pepin et al. 2022, Optimizing response to an introduction of African Swine Fever in wild pigs, converted from Matlab to R/C++.    
 Forked from kchalkowski/ASF_optimal_radius and now detached for R package build
