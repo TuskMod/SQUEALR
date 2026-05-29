@@ -19,11 +19,14 @@ We then join habitat preference with feral swine
 movement for 430 100x100 km landscape tiles covering historic or current feral pig ranges in the
 contiguous United States. Fifty of these tiles are selected based on a classified Latin hypercube algorithm to optimally represent the ranges of landscape attributes where feral pigs are or could be found. 
 
+<img width="788" height="376" alt="landscape_diagram" src="https://github.com/user-attachments/assets/9dd64c56-175d-4d9e-9b4d-d1d66276464d" />
+
 ### Simulations
 We simulate feral swine movement and population
 dynamics, as well as ASFv transmission, on selected landscapes for 78 simulated weeks (1.5 years), with 100 replicates per combination of landscape tile, feral pig density, inter-sounder contact parameters, and ASFv virulence. The simulations include pig reproduction from healthy pigs; division of sounders if they reach a large size; movement between 0.5x0.5 km spatial grid cells; and ASFv transmission within sounders, between sounders, and from infected carcasses to living individuals, both within and between spatial grid cells.
 
 Infection status is handled by an augmented SIR model (SEIRCZ -- susceptible, exposed, infected, recovered, dead-infected, and dead-uninfected) handled as counds of individual pigs in each sounder.
+<img width="778" height="787" alt="model_diagram" src="https://github.com/user-attachments/assets/2c4e371a-eb65-4c8f-b26c-314deab54f21" />
 
 ### Analysis
 Model outputs are analyzed using generalized linear mixed models with appropriate forms for each measured output variable, e.g. establishment probability is modeled using a beta distribution. GLMM's are applied to the entire output dataset for inference, and for prediction we use leave-one-out cross validation with the same GLMM's applied to all but one landscape tile (with each simulation landscape tile having a round as the "left out" data subset) to determine the sensitivity of output variables to specific datasets. The predicted relationships are used to extrapolate beyond the simulated landscape tiles to locations across the range of feral pigs.
