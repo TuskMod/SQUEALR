@@ -1,6 +1,7 @@
 # Spatial QUantitative Evaluation for ASFv eLimination (SQUEAL) model R package
 
 ## Background
+African Swine Fever virus has spread globally over the past several decades, and may appear in the United States in the near future. In the interest of preparing for its arrival, modeling efforts are underway to identify strategies that might improve surveillance, response, and elimination in the event of ASFv introductions. This model is one such effort, specifically designed to estimate establishment and spread of ASFv relative to landscape attributes in the contiguoous United States among feral swine. 
 
 ## Goals
 The goal of this project is to predict ASFv epidemic dynamics in feral pig populations in the contiguous United States following a hypothetical introduction under a range of feasible conditions. Specifically, we ask whether feral pig density, inter-sounder contact, and ASFv virulence interact with sounder movement patterns to affect ASFv establishment and spread rates.
