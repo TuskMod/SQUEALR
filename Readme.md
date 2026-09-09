@@ -7,7 +7,7 @@ African Swine Fever virus has spread globally over the past several decades, and
 The goal of this project is to predict ASFv epidemic dynamics in feral pig populations in the contiguous United States following a hypothetical introduction under a range of feasible conditions. Specifically, we ask whether feral pig density, inter-sounder contact, and ASFv virulence interact with sounder movement patterns to affect ASFv establishment and spread rates.
 
 ## Model Overview
-The simulations use feral pig habitat preference and sounder movement models to simulate sounder movement in a subset of real-work landscapes. These simulations include introduction of ASFv at a single point in the landscape. Transmission is modeled based on inter-sounder contact and contact with infected carcasses, a major source of persistent ASFv presence on landscapes.
+The simulations use feral pig habitat preference and sounder movement models to simulate sounder movement in a subset of real-world landscapes. These simulations include introduction of ASFv at a single point in the landscape. Transmission is modeled based on inter-sounder contact and contact with infected carcasses, a major source of persistent ASFv presence on landscapes.
 Simulations include a range of feasible inter-sounder contact, ASFv virulence, and feral pig population density parameters to test sensitivity to these factors and address unknowns that might affect real-world introductions. Measured outputs are probability of establishment, maximum incidence, epidemic geographic coverage, epidemic wave speed, escape time (5+% of ASFv-affected cells outside of 10km radius from introudction point), and total disease burden.
 
 ### Habitat Preference, Sounder Movement, and Landscape Tile Selection
